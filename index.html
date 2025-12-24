@@ -7,7 +7,8 @@
     </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -146,6 +147,16 @@
             </tr>
         </table>
     </div>
+
+    <form action="/submit-photo">
+        <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label><br>
+        <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+        <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label><br>
+        <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy</label><br>
+        <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic</label><br>
+        <input type="text" placeholder="cat photo URL" required><br>
+        <button type="submit">Submit</button>
+    </form>
 
 
     <div id="footer">
